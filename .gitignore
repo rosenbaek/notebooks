@@ -3,7 +3,6 @@
 .vscode
 
 **/target/
-**/my_notebooks/
 **/my_modules/
 **/python_handin2
 **/python_handin_template
