@@ -38,7 +38,8 @@ plt.savefig('barchart.png',bbox_inches='tight')
 plt.close()
 print(no_4.index)
 
-df["death_vs_infected"] = df.new_deaths.div(df.new_cases)*100
+
+df["death_vs_infected"] = df.total_deaths.div(df.total_cases)*100
 
 denmark = df.loc[df['location'] == "Denmark"]
 usa = df.loc[df['location'] == "United States"]
